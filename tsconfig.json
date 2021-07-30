@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "target": "esnext",
+    "lib": [
+      "es6"
+    ],
+    "types": [
+      "cypress"
+    ]
+  },
+  "include": [
+    "./node_modules/cypress",
+    "cypress/**/*.js",
+    "cypress/**/*.ts",
+    "cypress/**/*.feature"
+  ],
+  "module": "commonjs"
+}

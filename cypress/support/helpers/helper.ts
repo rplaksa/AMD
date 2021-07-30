@@ -1,0 +1,18 @@
+export enum MessagesFixture {
+    token='NjEwMjZmYTI4ZWEwNGUwMDAxODUwYjE1OnNFdXdMUE9tS3o=',
+    emptyString='',
+    tokenAccessMessage = 'access_token',
+    message='Message',
+    phone='+380636768405',
+    sender='Sender',
+    queuedStatus='Queued',
+    tokenType='bearer',
+    invalidPhone='+380636768',
+    invalidBalanceCode='567293750',
+    invalidBalanceMessage='Insufficient Balance',
+    invalidTokenMessage='invalid_token',
+    invalidSenderCode='564378902',
+    invalidFieldCode='450623840',
+    invalidBase64TokenError= 'Unauthorized',
+    invalidBase64TokenMessage= 'Full authentication is required to access this resource',
+}
