@@ -1,3 +1,4 @@
+import
 import { When, Then } from "cypress-cucumber-preprocessor/steps";
 import { setAssessRequest, setBase64Token } from "../../support/methods/mainMethods";
 import { MessagesFixture } from "../../support/helpers/helper";
